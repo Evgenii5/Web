@@ -1,0 +1,623 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+body{
+    
+position: absolute;
+width: 1440px;
+height: 11664px;
+
+background: #FFFFFF;
+}
+
+header{
+  display: flex;
+  width: 1440px;
+  border: 1px solid black;
+}
+.logo{
+  padding: 50px 116px 79px 135px;
+  border: 1px solid black;
+}
+.navigation{padding-top: 50px;
+            padding-bottom: 82px;
+            display: flex;
+            border: 1px solid black;
+            gap: 50px;
+                     }
+.nav-list{
+  display: flex;
+ gap: 50px;
+ font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+/* Black */
+
+color: #1E376A;
+}
+h1{font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 62px;
+  /* or 148% */
+  
+  
+  /* Black */
+  
+  color: #1E376A;
+  border: 1px solid black;
+  padding-left: 135px ;
+  }
+  .headingtext{
+  margin-top: 30px;
+  padding-left: 135px; 
+  border: 1px solid black;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+/* or 180% */
+
+
+/* Black */
+
+color: #1E376A;
+   
+  }
+.buttom1{
+  margin-left: 135px;
+  margin-top: 44px;
+  margin-right: 40px;
+  width: 220px;
+height: 56px;
+background: linear-gradient(173.48deg, #2BE9A3 7.91%, #07CDBF 56.39%, #00C7C5 66.53%, #09C7CA 74.43%, #21C9D8 89.08%, #48CBEE 107.12%, #66CCFF 119.52%);
+box-shadow: 0px 22px 36px rgba(1, 200, 197, 0.3);
+border-radius: 12px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+text-align: center;
+
+/* White */
+
+color: #FFFFFF;
+  
+}  
+.programstady{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+text-align: center;
+
+/* Blue */
+
+color: #4C68EF;
+
+}
+.containerdataplace{
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+  border: 1px solid black;
+  margin-left: 135px;
+  margin-top: 52px;
+  height: 70px;
+}
+.data1{
+  border: 1px solid black;
+  /* Semibold 16px | 24px */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Black */
+
+color: #1E376A;
+
+}
+.data2{
+  border: 1px solid black;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+
+
+color: #1E376A;
+}
+.place1{
+  border: 1px solid black;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+margin-left: 43px;
+color: #1E376A;
+}
+.place2{
+  margin-left: 43px;
+  border: 1px solid black;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+color: #1E376A;
+}
+
+
+.container4el{
+  display: flex;
+  margin-top: 423px;
+  margin-left: 135px;
+  margin-right: 135px;
+  border: 1px solid black; 
+  gap: 30px;
+}
+
+
+.el1{
+  /*position: absolute;
+width: 270px;
+height: 186px;
+left: 135px;
+top: 1025px;*/
+width: 270px;
+height: 186px;
+background: linear-gradient(0deg, #FFFFFF 0%, #F5F7FF 100%);
+box-shadow: 0px -8px 0px #F1F3FF;
+border-radius: 24px;
+border: 1px solid black;
+
+}
+
+.el2{
+  width: 270px;
+height: 186px;
+background: linear-gradient(0deg, #FFFFFF 0%, #F5F7FF 100%);
+box-shadow: 0px -8px 0px #F1F3FF;
+border-radius: 24px;
+border: 1px solid black;
+}
+
+.el3{
+  width: 270px;
+height: 186px;
+background: linear-gradient(0deg, #FFFFFF 0%, #F5F7FF 100%);
+box-shadow: 0px -8px 0px #F1F3FF;
+border-radius: 24px;
+border: 1px solid black;
+}
+.el4{
+  width: 270px;
+height: 186px;
+background: linear-gradient(0deg, #FFFFFF 0%, #F5F7FF 100%);
+box-shadow: 0px -8px 0px #F1F3FF;
+border-radius: 24px;
+border: 1px solid black;
+}
+
+.hours4{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 38px;
+border: 1px solid black;
+/* identical to box height, or 158% */
+
+
+/* Blue */
+
+color: #4C68EF;
+margin-top: 30px;
+margin-left: 30px;
+margin-bottom: 12px;
+}
+.text1{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+/* Black */
+
+color: #1E376A;
+
+opacity: 0.5;
+margin-left: 30px;
+border: 1px solid black;
+}
+
+.text2{
+  border: 1px solid black;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+/* Black */
+
+color: #1E376A;
+margin-left: 32px;
+}
+
+.text3{
+  border: 1px solid black;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+/* Black */
+
+color: #1E376A;
+margin-left: 32px;
+
+}
+
+.text4{
+  border: 1px solid black;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Black */
+
+color: #1E376A;
+margin-left: 32px;
+
+}
+
+.youSend{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height, or 150% */
+
+/*text-align: center;*/
+
+/* Black */
+
+color: #1E376A;
+padding-left: 594px;
+margin-top: 120px;
+margin-bottom: 56px;
+border: 1px solid black;
+}
+
+.container5el{
+  margin-left: 135px;
+  margin-right: 135px;
+  border: 1px solid black;
+}
+
+.el1containera5el {
+  display: flex;
+  background: #FFFFFF;
+box-shadow: 0px 14px 50px rgba(132, 154, 182, 0.12);
+border-radius: 24px;
+border: 1px solid black;
+}
+.imgEl1Containera5El{
+  margin: 15px 0 18px 50px;
+  border: 1px solid black;
+}
+.mainTextEl1{
+  border: 1px solid black; 
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+/* identical to box height, or 180% */
+
+
+/* Black */
+
+color: #1E376A;
+padding: 68px 0 76px 47px;
+}
+.numerEl1{
+  border: 1px solid black;
+  flex-grow: 1;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+color: #4C68EF;
+text-align: right;
+padding: 30px 30px 0 0;
+}
+
+  
+
+
+
+
+.el2containera5el {
+  display: flex;
+  background: #FFFFFF;
+box-shadow: 0px 14px 50px rgba(132, 154, 182, 0.12);
+border-radius: 24px;
+border: 1px solid black;
+margin-top: 20px;
+}
+.imgEl2Containera5El{
+  margin: 13px 0 13px 48px;
+  border: 1px solid black;
+}
+.mainTextEl2{
+  border: 1px solid black; 
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+color: #1E376A;
+padding: 68px 0 76px 89px;
+}
+.numerEl2{
+border: 1px solid black;
+flex-grow: 1;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+color: #4C68EF;
+text-align: right;
+padding: 30px 30px 0 0;
+}
+
+
+
+.el3containera5el {
+  display: flex;
+  background: #FFFFFF;
+box-shadow: 0px 14px 50px rgba(132, 154, 182, 0.12);
+border-radius: 24px;
+border: 1px solid black;
+margin-top: 20px;
+}
+.imgEl3Containera5El{
+  margin: 31px 0 23px 48px;
+  border: 1px solid black;
+}
+.mainTextEl3{
+  border: 1px solid black; 
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+color: #1E376A;
+padding: 68px 0 76px 58px;
+}
+.numerEl3{
+border: 1px solid black;
+flex-grow: 1;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+color: #4C68EF;
+text-align: right;
+padding: 30px 30px 0 0;
+}
+
+
+
+
+.el4containera5el {
+  display: flex;
+  background: #FFFFFF;
+box-shadow: 0px 14px 50px rgba(132, 154, 182, 0.12);
+border-radius: 24px;
+border: 1px solid black;
+margin-top: 20px;
+}
+.imgEl4Containera5El{
+  margin: 13px 0 11px 71px;
+  border: 1px solid black;
+}
+.mainTextEl4{
+  border: 1px solid black; 
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+color: #1E376A;
+padding: 68px 0 76px 83px;
+}
+.numerEl4{
+border: 1px solid black;
+flex-grow: 1;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+color: #4C68EF;
+text-align: right;
+padding: 30px 30px 0 0;
+}
+
+
+
+
+
+
+.el5containera5el {
+  display: flex;
+  background: #FFFFFF;
+box-shadow: 0px 14px 50px rgba(132, 154, 182, 0.12);
+border-radius: 24px;
+border: 1px solid black;
+margin-top: 20px;
+}
+.imgEl5Containera5El{
+  margin: 49px 0 49px 71px;
+  border: 1px solid black;
+}
+.mainTextEl5{
+  border: 1px solid black; 
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+color: #1E376A;
+padding: 68px 0 76px 63px;
+}
+.numerEl5{
+border: 1px solid black;
+flex-grow: 1;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+color: #4C68EF;
+text-align: right;
+padding: 30px 30px 0 0;
+}
+
+
+
+
+.youLearn{
+  border: 1px solid black;
+  padding-left: 135px;
+  margin-top: 264px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height, or 150% */
+
+
+
+/* Black */
+
+color: #1E376A;
+ 
+}
