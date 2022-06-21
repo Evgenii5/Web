@@ -82,17 +82,15 @@ select {
 }
 
 body {
-  
 }
 .container {
   max-width: 1440px;
   background: #ffffff;
   font-family: "Montserrat";
   font-style: normal;
-  margin-left:135px;
-  margin-right:135px;
+  margin-left: 135px;
+  margin-right: 135px;
   border: 1px solid black;
-  
 }
 header {
   display: flex;
@@ -102,16 +100,13 @@ header {
   padding: 50px 116px 79px 0;
 }
 .navigation {
-  
   padding-top: 50px;
   padding-bottom: 82px;
   display: flex;
   flex-grow: 1;
-  
 }
-nav{
+nav {
   flex-grow: 1;
-
 }
 .nav-list {
   display: flex;
@@ -120,14 +115,12 @@ nav{
   font-size: 14px;
   line-height: 22px;
   color: #1e376a;
-    
 }
-.title{
+.title {
   font-weight: 700;
   font-size: 42px;
   line-height: 62px;
   color: #1e376a;
-  
 }
 .subtitle {
   margin-top: 30px;
@@ -173,32 +166,26 @@ nav{
   margin-bottom: 423px;
   max-height: 70px;
   color: #1e376a;
- }
+}
 .data-place__item1 {
-   
   font-weight: 600;
   font-size: 16px;
   line-height: 28px;
-  
 }
 .data-place__item2 {
-  
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  
 }
 .data-place__item3 {
-  
   font-weight: 600;
   font-size: 16px;
   line-height: 28px;
   margin-left: 43px;
-  
 }
 .data-place__item4 {
   margin-left: 43px;
-  
+
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -207,9 +194,8 @@ nav{
 .row {
   display: flex;
   justify-content: space-between;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
-      
 }
 
 .row-item {
@@ -218,9 +204,7 @@ nav{
   box-shadow: 0px -8px 0px #f1f3ff;
   border-radius: 24px;
   flex-grow: 1;
-  
 }
-
 
 .row-item__title {
   font-weight: 700;
@@ -235,9 +219,7 @@ nav{
   line-height: 28px;
   color: #1e376a;
   padding: 6px 0 50px 30px;
-  
 }
-
 
 .title2 {
   font-weight: 700;
@@ -247,7 +229,6 @@ nav{
   text-align: center;
   margin-top: 120px;
   margin-bottom: 56px;
-  
 }
 
 .column-item {
@@ -258,7 +239,6 @@ nav{
 }
 .column-item__img1 {
   padding: 15px 47px 18px 50px;
-  
 }
 .column-item__text {
   font-weight: 700;
@@ -278,15 +258,12 @@ nav{
 }
 .column-item__img2 {
   padding: 13px 89px 13px 48px;
-  
 }
 .column-item__img3 {
   padding: 39px 58px 23px 50px;
-  
 }
 .column-item__img4 {
   padding: 13px 83px 13px 71px;
-  
 }
 .column-item__img5 {
   padding: 49px 63px 48px 71px;
@@ -298,4 +275,3 @@ nav{
   line-height: 54px;
   color: #1e376a;
 }
-
