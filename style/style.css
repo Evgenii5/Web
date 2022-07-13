@@ -1,101 +1,31 @@
-/* Указываем box sizing */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Убираем внутренние отступы */
-ul[class],
-ol[class] {
-  padding: 0;
-}
-
-/* Убираем внешние отступы */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-  padding: 0;
-}
-
-/* Выставляем основные настройки по-умолчанию для body */
-body {
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
-
-/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
-ul[class],
-ol[class] {
-  list-style: none;
-}
-
-/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* Упрощаем работу с изображениями */
-img {
-  max-width: 100%;
-  display: block;
-}
-
-/* Указываем понятную периодичность в потоке данных у article*/
-article > * + * {
-  margin-top: 1em;
-}
-
-/* Наследуем шрифты для инпутов и кнопок */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
 
 body {
-}
-.container {
-  max-width: 1440px;
-  background: #f5f7ff;
+  height: 100%;
+  line-height: 1;
   font-family: "Montserrat";
   font-style: normal;
-  margin-left: 135px;
-  margin-right: 135px;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  background: #f5f7ff;
+ 
+  
   /*border: 1px solid black;*/
 }
-header {
+._container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.header {
+  position: relative;
+  width: 100%;
+  z-index: 50;
+  }
+.header-container {
   display: flex;
 }
+
 .h2 {
   font-weight: 700;
   font-size: 36px;
@@ -128,6 +58,10 @@ header {
   padding: 0;
   margin: 0;
 }
+.autors-titleItem {padding-top: 45px;
+    /*padding-bottom: 80px;*/
+  text-align: center;
+background: #ffffff;}
 .logo {
   padding: 50px 116px 79px 0;
   flex-grow: 0;
@@ -379,7 +313,7 @@ header {
   padding: 16px 30px 16px 0;
 }
 .title6 {
-  padding: 120px 0 0 0;
+  padding: 120px 0 50px 0;
 }
 .autors-container {
   display: flex;
@@ -393,6 +327,8 @@ header {
 .autors-container__item-img {
   padding-top: 113px;
   flex-basis: 23%;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
 }
 .big-img {
   flex-basis: auto;
@@ -418,4 +354,28 @@ header {
 .autors-container__link {
   list-style: none;
   list-style-image: url(/img/el-list.png);
+}
+.autors-subtitle {
+  text-align: center;
+  background: #ffffff;
+  padding-bottom: 50px;
+  font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #1E376A;
+border-bottom-left-radius: 24px;
+border-bottom-right-radius: 24px;
+}
+.container-sliders {
+background: #FFFFFF;
+box-shadow: 0px 70px 80px rgba(52, 69, 134, 0.05);
+border-radius: 50px;
+}
+.sliderImg {
+  padding: 100px 0 166px 100px;
+  border: 1px black solid;
+}
+.title7 {
+  border: 1px black solid;
+
 }
