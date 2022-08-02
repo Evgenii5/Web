@@ -516,20 +516,80 @@ body {
   border-radius: 50px;
 }
 .slider__img {
+  padding: 100px 0 186px 100px;
 }
 .slider__text {
+  flex-grow: 1;
 }
 .slider__title {
+  padding: 132px 0 0 46px;
+  /*border: 1px solid black;*/
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1e376a;
 }
 .slider__subtitle1 {
+  padding: 30px 0 0 46px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4c68ef;
 }
 .slider__subtitle2 {
+  padding: 4px 0 0 46px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1e376a;
 }
 .slider__block1 {
+  display: flex;
 }
 .slider__text1 {
+  padding: 30px 0 0 46px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4c68ef;
 }
 .slider__block2 {
+  display: flex;
 }
 .slider__text2 {
+  padding: 4px 0 0 46px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1e376a;
+}
+.slider-text2 {
+  padding-left: 53px;
+}
+/*------------------------------------------------------------------------------*/
+
+/*----------------------------------------------page-reviews--------------------*/
+
+.page__reviews {
+}
+.reviews {
+}
+.reviews__container {
+}
+.reviews__header {
+  border: 1px solid black;
+  padding: auto;
+  padding-top: 265px;
+}
+.reviews__body {
+}
+.reviews__slider {
+}
+.reviews__img {
+}
+.reviews__title {
+}
+.reviews__subtitle {
+}
+.reviews__text {
 }
