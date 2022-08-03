@@ -21,7 +21,6 @@ body {
   /*border: 1px solid black;*/
 }
 .header-block {
-  text-align: center;
   color: #1e376a;
   font-family: "Montserrat";
   font-style: normal;
@@ -208,14 +207,16 @@ body {
 .page__services {
 }
 .services {
-  padding: 120px 0;
 }
 .services__container {
 }
 ._container {
 }
 .services__header {
-  margin: 0 0 56px 0;
+  display: flex;
+  justify-content: center;
+  /*border: 1px solid black;*/
+  padding: 120px 0 56px 0;
 }
 
 .header-block__title {
@@ -268,11 +269,11 @@ body {
 /*-----------------------------------------------------------------------------------------------------------*/
 
 /*--------------------------------------------page-learn------------------------------------------------------*/
-.header-block__title {
-  padding: 264px 0 129px -15px;
-  text-align: left;
-}
 
+.learn__header {
+  margin: 0 -15px 0 -15px;
+  padding: 264px 0 129px 0;
+}
 .learn__body {
   display: flex;
   flex-wrap: wrap;
@@ -288,8 +289,7 @@ body {
 }
 ._container {
 }
-.learn__header {
-}
+
 .header-block {
 }
 
@@ -327,10 +327,9 @@ body {
   border-radius: 50px;
   color: #ffffff;
 }
-.header-block__title__color {
+.learn__header__color {
   color: #fff;
   padding: 120px 0 71px 100px;
-  text-align: left;
 }
 .learn-color__block {
   display: flex;
@@ -357,6 +356,7 @@ body {
 
 .program__header {
   padding: 181px 0 60px 0;
+  text-align: center;
 }
 .program__body {
   display: flex;
@@ -577,19 +577,47 @@ body {
 .reviews__container {
 }
 .reviews__header {
-  border: 1px solid black;
-  padding: auto;
+  /*border: 1px solid black;*/
+  text-align: center;
   padding-top: 265px;
 }
 .reviews__body {
 }
 .reviews__slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .reviews__img {
+  padding: 57px 0 25px 0;
 }
 .reviews__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  color: #1e376a;
+  padding-bottom: 6px;
 }
 .reviews__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1e376a;
+  padding-bottom: 48px;
 }
 .reviews__text {
+  min-width: 690px;
+  min-height: 144px;
+  /* border: 1px solid black; */
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #1e376a;
+}
+/*---------------------------------------------------------------------------*/
+/*----------------------------------------------page__apply------------------*/
+.apply__body {
+  margin-top: 200px;
+  background: linear-gradient(5.94deg, #6378da 5.81%, #8c9ce4 94.86%);
+  border-radius: 50px;
 }
