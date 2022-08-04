@@ -616,8 +616,61 @@ body {
 }
 /*---------------------------------------------------------------------------*/
 /*----------------------------------------------page__apply------------------*/
+
+.page__apply {
+}
+.apply {
+}
+.apply__container {
+}
+._container {
+}
 .apply__body {
   margin-top: 200px;
   background: linear-gradient(5.94deg, #6378da 5.81%, #8c9ce4 94.86%);
   border-radius: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.apply-body {
+}
+.apply-body__left {
+  /* border: 1px solid black; */
+  width: 55%;
+}
+.apply-body__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+  padding: 120px 0 63px 100px;
+}
+.apply-body__left__block {
+  margin-left: 100px;
+  margin-bottom: 134px;
+  border-left: 3px solid rgba(255, 255, 255, 0.5);
+  /* border: 1px solid black; */
+}
+.apply-body__left__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+.apply-body__left__item {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  padding-left: 24px;
+  /* border: 1px solid black; */
+}
+.apply-body__right {
+  width: 45%;
+  border: 1px solid black;
+}
+
+.apply-body__subtitle {
+  padding: 197px 0 22px 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
 }
