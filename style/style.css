@@ -713,3 +713,109 @@ input {
   width: 100%;
   min-height: 56px;
 }
+.apply__title {
+  padding: 120px 18px 122px 18px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #1e376a;
+}
+/*---------------------------------------------------------------------------*/
+/*----------------------------------------footer__inf-block-------------------*/
+.footer {
+}
+.footer__inf-block {
+}
+.inf-block {
+}
+.inf-block__body {
+  background: #1e376a;
+  padding-bottom: 230px;
+}
+.inf-block__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+  padding: 120px 0 88px 135px;
+}
+.inf-block__data {
+  display: flex;
+  padding-bottom: 28px;
+}
+.inf-block__img {
+  padding: 0 0 0 140px;
+}
+.inf-block__text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  color: #ffffff;
+}
+/*--------------------------------------------------------------------------*/
+/*-------------------------------------------------footer__question----------*/
+.footer__question {
+}
+.question {
+}
+.question__container {
+}
+._container {
+}
+.question__body {
+}
+.question-body {
+  margin-top: -128px;
+  background: #ffffff;
+  box-shadow: 0px 70px 80px rgba(52, 69, 134, 0.05);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.question-body__title {
+  text-align: center;
+  padding: 120px 0 10px 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1e376a;
+}
+.question-body__subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #1e376a;
+  padding-bottom: 40px;
+}
+.question-body__img {
+}
+.question-body__name {
+  padding: 30px 0 6px 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  color: #1e376a;
+}
+.question-body__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1e376a;
+  padding-bottom: 43px;
+}
+.question-body__contact {
+}
+.body-contact {
+  display: flex;
+  align-items: center;
+  padding-bottom: 122px;
+}
+.body-contact__img {
+  padding-left: 65px;
+}
+.body-contact__text {
+  padding-left: 16px;
+}
