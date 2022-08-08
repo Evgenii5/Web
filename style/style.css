@@ -819,3 +819,29 @@ input {
 .body-contact__text {
   padding-left: 16px;
 }
+/*--------------------------------------------------------------------------------------*/
+/*-------------------------------------------------footer-navigation-------------------*/
+.footer-navigation {
+}
+.footer-navigation__block {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 0;
+  /* border: 1px solid black; */
+}
+.footer-navigation__menu__left {
+  display: flex;
+  gap: 60px;
+  /* border: 1px solid black; */
+}
+.footer-navigation__menu__right {
+  display: flex;
+  gap: 12px;
+  /* border: 1px solid black; */
+}
+.footer-navigation__item {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1e376a;
+}
